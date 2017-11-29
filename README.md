@@ -1,4 +1,4 @@
-# Sprint 3 – Build with CSS grids :radio:
+# Sprint 3 – Build with CSS grids
 
 Today's assignment is to implement a pretty advanced grid layout using the new cool [CSS grids.](https://css-tricks.com/snippets/css/complete-guide-grid/) CSS grids will solve many of the layouting problems that we as developers have had to work around in the past – Finally it's here! 
 
