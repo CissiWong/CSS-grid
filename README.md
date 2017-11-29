@@ -2,7 +2,9 @@
 
 Today's assignment is to implement a pretty advanced grid layout using the new cool [CSS grids.](https://css-tricks.com/snippets/css/complete-guide-grid/) CSS grids will solve many of the layouting problems that we as developers have had to work around in the past – Finally it's here! 
 
-Below is the grid that we will implement, first on desktop and then as a stretch goal for mobile and tablet. 
+Below is the grid that we will implement, first on desktop and then as a stretch goal for mobile and tablet. In the `assets` folder there's image assets but also a pdf with some supporting lines – also you can copy paste the copy from there. AND learn some more about Helvetica. 
+
+
 
 ## How to complete this assignment
 
