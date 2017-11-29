@@ -4,7 +4,7 @@ Today's assignment is to implement a pretty advanced grid layout using the new c
 
 Below is the grid that we will implement, first on desktop and then as a stretch goal for mobile and tablet. In the `assets` folder there's image assets but also a pdf with some supporting lines – also you can copy paste the copy from there. AND learn some more about Helvetica. 
 
-
+![Grid](https://github.com/Technigo/assignment-css-grid/blob/master/Helvetica_grid.001.png)
 
 ## How to complete this assignment
 
