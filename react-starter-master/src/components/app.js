@@ -1,5 +1,7 @@
 import React from "react"
 import a from "assets/a.png"
+import and from "assets/and.png"
+import curlybrace from "assets/curly_bracet.png"
 
 class App extends React.Component {
 
@@ -11,11 +13,9 @@ class App extends React.Component {
           <h4>designed by</h4>
           <p>Max Miedinger 1957</p>
         </div>
-        <div className="tall wide">
-          <img src={a} alt="letter a" />
-        </div>
-        <div className="tall">Bild</div>
-        <div>Bild</div>
+        <div className="tall wide image" style={{ backgroundImage: `url(${a})` }} />
+        <div className="tall image" style={{ backgroundImage: `url(${curlybrace})` }} />
+        <div className="image" style={{ backgroundImage: `url(${and})` }} />
         <div>
           <h3>Usage</h3>
           <p> / Apple's iOS interface /
@@ -35,8 +35,8 @@ class App extends React.Component {
           <h3>Punctuation</h3>
           <p>/heavier punctuation marks than Helvetica</p>
         </div>
-        <div className="wide">
-          <blockquote>I don't care what it says, as long as it's in Helvetica</blockquote>
+        <div className="wide quote">
+          <blockquote>"I don't care what it says, as long as it's in Helvetica"</blockquote>
         </div>
         <div className="wide">
           <h2>abcdefghijklmnopqrstuvwxyz</h2>
