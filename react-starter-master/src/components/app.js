@@ -1,24 +1,21 @@
 import React from "react"
 import a from "assets/a.png"
-import curly from "assets/curly_bracet.png"
-import and from "assets/and.png"
 
 class App extends React.Component {
 
   render() {
     return (
       <div className="grid-container">
-        <div>
+        <div className="wide" >
           <h1>Helvetica</h1>
           <h4>designed by</h4>
           <p>Max Miedinger 1957</p>
         </div>
-        <div><img src={a} alt="letter a" />
+        <div className="tall wide">
+          <img src={a} alt="letter a" />
         </div>
-        <div><img src={curly} alt="curly bracet" />
-        </div>
-        <div><img src={and} alt="and sign" />
-        </div>
+        <div className="tall">Bild</div>
+        <div>Bild</div>
         <div>
           <h3>Usage</h3>
           <p> / Apple's iOS interface /
@@ -38,10 +35,10 @@ class App extends React.Component {
           <h3>Punctuation</h3>
           <p>/heavier punctuation marks than Helvetica</p>
         </div>
-        <div>
+        <div className="wide">
           <blockquote>I don't care what it says, as long as it's in Helvetica</blockquote>
         </div>
-        <div>
+        <div className="wide">
           <h2>abcdefghijklmnopqrstuvwxyz</h2>
         </div>
         <div>
