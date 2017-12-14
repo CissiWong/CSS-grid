@@ -9,14 +9,22 @@ h1 {
  margin: 0;
 }
 
-h2, h3, h4 {
+h3, h4 {
   text-transform: uppercase;
   margin: 0;
+  color: grey;
 }
 
 h2 {
   letter-spacing: 3px;
   font-size: 42px;
+  text-transform: uppercase;
+  margin: 0;
+  color: #000;
+}
+
+h4 {
+  font-size: 13px;
 }
 
 p {
@@ -35,8 +43,30 @@ p {
 
 .grid-container div {
   padding: 15px;
-  background: #fff;
+  background-color: #fff;
   position: relative;
+}
+
+.grid-container .wide h4 {
+  position: absolute;
+  bottom: 36px;
+}
+
+.a {
+  background-size: cover;
+  object-position: center center;
+  background-repeat: no-repeat;
+}
+
+.curly {
+  background-size: cover;
+  background-position: 69% 100%;
+  background-repeat: no-repeat;
+}
+
+.and {
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .tall {

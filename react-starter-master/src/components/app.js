@@ -13,9 +13,9 @@ class App extends React.Component {
           <h4>designed by</h4>
           <p>Max Miedinger 1957</p>
         </div>
-        <div className="tall wide image" style={{ backgroundImage: `url(${a})` }} />
-        <div className="tall image" style={{ backgroundImage: `url(${curlybrace})` }} />
-        <div className="image" style={{ backgroundImage: `url(${and})` }} />
+        <div className="tall wide a" style={{ backgroundImage: `url(${a})` }} />
+        <div className="tall curly" style={{ backgroundImage: `url(${curlybrace})` }} />
+        <div className="and" style={{ backgroundImage: `url(${and})` }} />
         <div className="usage">
           <h3>Usage</h3>
           <p> / Apple's iOS interface /
