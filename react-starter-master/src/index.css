@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -17,7 +21,7 @@ h3, h4 {
 
 h2 {
   letter-spacing: 3px;
-  font-size: 42px;
+  font-size: 36px;
   text-transform: uppercase;
   margin: 0;
   color: #000;
@@ -36,13 +40,13 @@ p {
 .grid-container {
   margin: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(15%, 1fr));
-  grid-auto-rows: minmax(150px, auto);
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-auto-rows: minmax(150px, 150px);
   grid-gap: 20px;
 }
 
 .grid-container div {
-  padding: 15px;
+  padding: 10px;
   background-color: #fff;
   position: relative;
 }
@@ -80,7 +84,17 @@ p {
 .wide.quote {
   background: #000000;
   color: #fff;
-  font-size: 32px;
+  font-size: 28px;
+  margin: 0;
+  position: relative;
+}
+
+blockquote {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .grid-container .usage {
