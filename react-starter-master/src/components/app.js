@@ -16,7 +16,7 @@ class App extends React.Component {
         <div className="tall wide image" style={{ backgroundImage: `url(${a})` }} />
         <div className="tall image" style={{ backgroundImage: `url(${curlybrace})` }} />
         <div className="image" style={{ backgroundImage: `url(${and})` }} />
-        <div>
+        <div className="usage">
           <h3>Usage</h3>
           <p> / Apple's iOS interface /
           NYC's MTA & Chicago's Transit Authority signage /
@@ -39,7 +39,9 @@ class App extends React.Component {
           <blockquote>"I don't care what it says, as long as it's in Helvetica"</blockquote>
         </div>
         <div className="wide">
-          <h2>abcdefghijklmnopqrstuvwxyz</h2>
+          <h2>abcdefghijk</h2>
+          <h2>lmnopqrstu</h2>
+          <h2>vwxyz</h2>
         </div>
         <div>
           <h3>helvetica - the movie</h3>
